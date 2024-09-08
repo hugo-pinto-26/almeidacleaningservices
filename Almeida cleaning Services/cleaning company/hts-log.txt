@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 07 Sep 2024 09:49:38 at https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2t%Ps2u1%s%uN101%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546 -O1 "C:\My Web Sites\cleaning company" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:49:39	Warning: 	Link https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546 not scanned (follow robots meta tag)
+09:49:42	Error: 	"Unable to rename file on disk" (-1) at link https://public-assets.envato-static.com/assets/generated_sprites/logos-20f56d7ae7a08da2c6698db678490c591ce302aedb1fcd05d3ad1e1484d3caf9.png (from https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546)
+09:49:42	Error: 	"Unable to rename file on disk" (-1) at link https://public-assets.envato-static.com/assets/generated_sprites/common-5af54247f3a645893af51456ee4c483f6530608e9c15ca4a8ac5a6e994d9a340.png (from https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546)
+09:49:42	Error: 	"Gone" (410) at link https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/&quot;https://livewp.site/docs/clengo-cleaning-services-elementor-wordpress-theme/&quo..." (from https://preview.themeforest.net/item/clengo-cleaning-services-elementor-wordpress-theme/full_screen_preview/23682546)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 seconds : 5 links scanned, 1 files written (19655 bytes overall), 1 files updated [10214 bytes received at 2553 bytes/sec], 19655 bytes transferred using HTTP compression in 1 files, ratio 33%, 1.2 requests per connection
+(3 errors, 1 warnings, 0 messages)
