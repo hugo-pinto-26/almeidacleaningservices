@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 Sep 2024 15:56:20 at http://st.ourhtmldemo.com/new/Mainton/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN1%I0p7DaK0c3H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://st.ourhtmldemo.com/new/Mainton/ -O1 "C:\My Web Sites\Almeida Cleaning" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:06:01	Warning: 	HTML file (29639 bytes) retransferred due to lack of cache: st.ourhtmldemo.com/new/Mainton/contact.html
+16:06:03	Warning: 	HTML file (57055 bytes) retransferred due to lack of cache: st.ourhtmldemo.com/new/Mainton/index-2.html
+16:06:38	Error: 	"Not Found" (404) at link st.ourhtmldemo.com/new/Mainton/css/owl.video.play.png (from st.ourhtmldemo.com/new/Mainton/css/owl.css)
+16:06:38	Error: 	"Not Found" (404) at link st.ourhtmldemo.com/new/Mainton/css/images/ui-icons_777620_256x240.png (from st.ourhtmldemo.com/new/Mainton/css/jquery-ui.css)
+16:06:38	Error: 	"Not Found" (404) at link st.ourhtmldemo.com/new/Mainton/css/images/ui-icons_cc0000_256x240.png (from st.ourhtmldemo.com/new/Mainton/css/jquery-ui.css)
+16:06:38	Error: 	"Not Found" (404) at link st.ourhtmldemo.com/new/Mainton/css/images/ui-icons_777777_256x240.png (from st.ourhtmldemo.com/new/Mainton/css/jquery-ui.css)
+16:06:38	Error: 	"Not Found" (404) at link st.ourhtmldemo.com/new/Mainton/css/mCSB_buttons.html (from st.ourhtmldemo.com/new/Mainton/css/jquery.mCustomScrollbar.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 18 seconds : 195 links scanned, 191 files written (18086361 bytes overall) [15414553 bytes received at 24942 bytes/sec], 3817255 bytes transferred using HTTP compression in 59 files, ratio 27%, 2.1 requests per connection
+(5 errors, 2 warnings, 0 messages)
