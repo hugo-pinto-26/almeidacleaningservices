@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -19,7 +19,6 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
-
 <body>
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -29,7 +28,7 @@
     	<!--Header-Upper-->
         <div class="header-upper">
         	<div class="auto-container">
-            	<div class="clearfix">
+            	<div class="clearfix"> 
                 	
                 	<div class="pull-left logo-box">
                     	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
@@ -49,7 +48,7 @@
                         <div class="upper-column info-box">
                         	<div class="icon-box dark" style="color:#75966a"><span class="flaticon-trip"></span></div>
                             <ul>
-                            	<li style="font-family:'Rubik', sans-serif; text-transform:uppercase; font-size:14px;">75014 Paris, France <br> 48 Boulevard Jourdan Cand  </li>
+                            	<li style="font-family:'Rubik', sans-serif; text-transform:uppercase; font-size:14px;">Presidente verpoortenstraat 3<br> 5421 GL Gemet   </li>
                             </ul>
                         </div>
                         
@@ -122,7 +121,7 @@
                                     <div class="icon-outer">
                                         <span class="icon fa fa-phone"></span>
                                     </div>
-                                    <span class="theme_color">Phone: </span><span class="social-option">+0 789.0123.456 </span> 
+                                    <span class="theme_color">Phone: </span><span class="social-option">064 966 0401 </span> 
                                 </div>
                                 <!-- <div class="appointment-box">
                                     <a href="contact.html" class="theme-btn appointment-btn"><span class="icon flaticon-calendar-1"></span>Appointment</a>
@@ -158,7 +157,7 @@
                         
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                             <ul class="navigation clearfix">
-                                <a class="main-menu"><a href="#">Home</a>  
+                                <li class="dropdown"><a href="index.html">Home</a>
                                 <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
                                         <li><a href="about.html">About Company</a></li>
@@ -187,14 +186,14 @@
                                         <li><a href="case-single.html">Single Case Study</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Blog</a>
+                                <!-- <li class="dropdown"><a href="#">Blog</a>
                                     <ul>
                                         <li><a href="blog.html">Blog Default</a></li>
                                         <li><a href="blog-large.html">Blog Large Image</a></li>
                                         <li><a href="blog-single.html">Single Post</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="contact.html">Contact us</a></li> -->
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -464,7 +463,6 @@
     <section class="pricing-section-two">
     	<div class="auto-container">
         	<div class="row clearfix">
-            	
                 <!--Steps Column-->
                 <div class="steps-column col-lg-6 col-md-12 col-sm-12">
                 	<div class="inner-column">
@@ -479,46 +477,39 @@
                         </div>
                         <div class="text">If you interested to get an estimate for your service please enter the required information.</div>
                         <div class="row clearfix">
-                        	
                             <div class="column col-lg-7 col-md-12 col-sm-12">
-                            	
                                 <!-- Step Form -->
-                                <div class="step-form">
-                                        
+                                <div class="step-form">   
                                     <!--Step Form-->
                                     <form method="post" action="index.html">
-                                        
                                         <!--Form Group-->
                                         <div class="form-group">
-                                        	<label class="label">Step 01</label>
-                                            <select class="custom-select-box">
-                                                <option>Type of Service</option>
-                                                <option>Service One</option>
-                                                <option>Service Two</option>
-                                                <option>Service Three</option>
-                                                <option>Service Four</option>
+                                            <label class="label">Step 01</label>
+                                            <select id="serviceType" class="custom-select-box" required>
+                                                <option value="" disabled selected>Type of Service</option>
+                                                <option value="school">School</option>
+                                                <option value="factory">Factory</option>
+                                                <option value="office">Office</option>
+                                                <option value="gym">Gym</option>
+                                                <option value="hotel">Hotel</option>
                                             </select>
                                         </div>
-                                        
                                         <!--Form Group-->
                                         <div class="form-group">
-                                        	<label class="label">Step 02</label>
-                                            <input type="text" name="text" placeholder="Square Footage" required>
+                                            <label class="label">Step 02</label>
+                                            <input type="number" id="squareFootage" name="squareFootage" placeholder="Square Footage" required>
                                         </div>
                                     </form>
-                                    
                                 </div>  
-                                 
                             </div>
-                            
                             <div class="column col-lg-5 col-md-12 col-sm-12">
-                            	<h3>Estimated Price</h3>
-                            	<div class="price-box">
-                                	<div class="total-price">€0.00</div>
-                                    <button type="button" class="theme-btn calculate-btn">Calculate</button>
+                                <h3>Estimated Price</h3>
+                                <div class="price-box">
+                                    <div class="total-price" id="totalPrice">€0.00</div>
+                                    <button type="button" class="theme-btn calculate-btn" onclick="calculatePrice()">Calculate</button>
                                 </div>
                             </div>
-                            
+                
                         </div>
                     </div>
                 </div>
@@ -912,7 +903,7 @@
                         	<span class="icon flaticon-contact"></span>
                         </div>
                         <h3>Phone & Mail</h3>
-                        <div class="text">+0 789.0123.456 <br> supportyou@example.com</div>
+                        <div class="text">064 966 040 <br> almeidacleaningservice4@gmail.com</div>
                         <a href="#" class="link">Appointment</a>
                     </div>
                 </div>
@@ -996,7 +987,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                     
@@ -1014,7 +1004,7 @@
                                         <li><a href="#">Testimonial</a></li>
                                         <li><a href="#">Case studies</a></li>
                                         <li><a href="#">Contact us</a></li>
-                                        <li><a href="#">+0 789.0123.456</a></li>
+                                        <li><a href="#">064 966 0401</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1022,23 +1012,19 @@
 							<!--Footer Column-->
                             <div class="footer-column col-md-6 col-sm-6">
                                 <div class="footer-widget links-widget">
-                                	<h2 class="alternate">+0 789.0123.456</h2>
+                                	<h2 class="alternate">064 966 0401</h2>
 									<ul class="contact-list">
-										<li>Info@Example.com</li>
-										<li>75014 Paris, France 48 Boulevard Jourdan Candiate.</li>
+										<li>almeidacleaningservice4@gmail.com</li>
+										<li>Presidente verpoortenstraat 3</li>
 									</ul>
 									<ul class="social-icon-one">
 										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-										<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-										<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
 										<li><a href="#"><span class="fa fa-youtube"></span></a></li>
 									</ul>
 								</div>
                             </div>
-							
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -1068,7 +1054,37 @@
     
 </div>
 <!--End pagewrapper-->
-
+<!--Estimated Cost-->
+<script>
+    // Define rates for each service type (per square meter)
+    const rates = {
+        'school': 10,  // €10 per square meter
+        'factory': 8,  // €8 per square meter
+        'office': 12,  // €12 per square meter
+        'gym': 15,     // €15 per square meter
+        'hotel': 20    // €20 per square meter
+    };
+    
+    // Function to calculate and display the price
+    function calculatePrice() {
+        const serviceType = document.getElementById("serviceType").value;
+        const squareFootage = document.getElementById("squareFootage").value;
+        const totalPriceElement = document.getElementById("totalPrice");
+    
+        if (!serviceType || !squareFootage) {
+            alert("Please select a service type and enter square footage.");
+            return;
+        }
+    
+        // Calculate total price based on the selected service and square footage
+        const rate = rates[serviceType];
+        const totalPrice = rate * squareFootage;
+    
+        // Update the total price in the UI
+        totalPriceElement.textContent = `€${totalPrice.toFixed(2)}`;
+    }
+    </script>
+<!--End Estimated Cost-->
 <script src="images/jquery.js"></script>
 <script src="images/popper.min.js"></script>
 <script src="images/bootstrap.min.js"></script>
