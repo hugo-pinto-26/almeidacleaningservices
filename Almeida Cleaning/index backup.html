@@ -438,7 +438,56 @@
     <!--Pricing Section Two-->
     <section class="pricing-section-two">
     	<div class="auto-container">
-        	<div class="row clearfix">                
+        	<div class="row clearfix">
+                <!--Steps Column-->
+                <!-- <div class=""> -->
+                	<!-- <div class="inner-column"> -->
+                    	<!-- <div class="title-box"> -->
+                        	<!-- <div class="title-inner"> -->
+                            	<!-- <div class="icon-box"> -->
+                                	<!-- <span class="icon flaticon-calculator"></span> -->
+                                <!-- </div>
+                                <h2>Instant Estimate</h2>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="text">If you interested to get an estimate for your service please enter the required information.</div>
+                        <div class="row clearfix">
+                            <div class="column col-lg-7 col-md-12 col-sm-12">
+
+                                <div class="step-form">   
+
+                                    <form method="post" action="index.html">
+
+                                        <div class="form-group">
+                                            <label class="label">Step 01</label>
+                                            <select id="serviceType" class="custom-select-box" required>
+                                                <option value="" disabled selected>Type of Service</option>
+                                                <option value="school">School</option>
+                                                <option value="factory">Factory</option>
+                                                <option value="office">Office</option>
+                                                <option value="gym">Gym</option>
+                                                <option value="hotel">Hotel</option>
+                                            </select>
+                                        </div>
+                          <div class="form-group">
+                                            <label class="label">Step 02</label>
+                                            <input type="number" id="squareFootage" name="squareFootage" placeholder="Square Footage" required>
+                                        </div>
+                                    </form>
+                                </div>  
+                            </div>
+                            <div class="column col-lg-5 col-md-12 col-sm-12">
+                                <h3>Estimated Price</h3>
+                                <div class="price-box">
+                                    <div class="total-price" id="totalPrice">€0.00</div>
+                                    <button type="button" class="theme-btn calculate-btn" onclick="calculatePrice()">Calculate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+                
                 <!--Pricing Column-->
                 <div class="pricing-column col-lg-12 col-md-6 col-sm-12">
                 	<!-- <div class="inner-column"> -->
@@ -542,6 +591,246 @@
             </div>
         </div>
     </section>
+    <!--End Pricing Section Two-->
+    
+    <!--Case Section-->
+    <!-- <section class="case-section"> -->
+    	<!-- <div class="auto-container"> -->
+        	    <!--Sec Title-->
+            <!-- <div class="sec-title centered"> -->
+            	<!-- <div class="icon-box">
+                    <span class="icon flaticon-broom"></span>
+                </div> -->
+            	<h2>Case Studies</h2>
+                <div class="separator"></div>
+            </div>
+			
+            <div class="masonry-items row clearfix">
+				
+                <!--Case Block-->
+                <!-- <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/1-2.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">Offices</a></h3>
+                                        <div class="title">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--Case Block-->
+                <!-- <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/2-2.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">Schools</a></h3>
+                                        <div class="title">2</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--Case Block-->
+                <!-- <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/3.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">Hotels</a></h3>
+                                        <div class="title">3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--Case Block-->
+                <!-- <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/4.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">Factories</a></h3>
+                                        <div class="title">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--Case Block-->
+                <!-- <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/5-2.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">Schools</a></h3>
+                                        <div class="title">5</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--Case Block-->
+                <div class="case-block masonry-item col-lg-4 col-md-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image">
+                        	<img src="images/6.jpg" alt="" />
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="content">
+                                        <h3><a href="case-single.html">architectural glass</a></h3>
+                                        <div class="title">6</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+			</div>
+            
+            <div class="btn-box text-center">
+            	<a href="#" class="theme-btn btn-style-three wow jello" data-wow-delay="300ms" data-wow-duration="1500ms">View More</a>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Case Section-->
+    
+    <!--Testimonial Section-->
+    <section class="testimonial-section">
+    	<div class="auto-container">
+        	<div class="single-item-carousel owl-carousel owl-theme">
+            
+                <!--Testimonial Block-->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">“Exceptional! They did a wonder-ful job, and my home smelled so nice. Now I can't imagine being without them!”</div>
+                        <div class="author-info">Liam gabriella / <span>La Harve</span></div>
+                    </div>
+                </div>
+                
+                <!--Testimonial Block-->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">“Exceptional! They did a wonder-ful job, and my home smelled so nice. Now I can't imagine being without them!”</div>
+                        <div class="author-info">Liam gabriella / <span>La Harve</span></div>
+                    </div>
+                </div>
+                
+                <!--Testimonial Block-->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">“Exceptional! They did a wonder-ful job, and my home smelled so nice. Now I can't imagine being without them!”</div>
+                        <div class="author-info">Liam gabriella / <span>La Harve</span></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section-->
+    
+    <!--Blog Section-->
+    <!-- <section class="blog-section">
+    	<div class="auto-container"> -->
+        	<!--Sec Title-->
+            <!-- <div class="sec-title centered">
+            	<div class="icon-box">
+                    <span class="icon flaticon-broom"></span>
+                </div>
+            	<h2>Latest From Blog</h2>
+                <div class="separator"></div>
+            </div> -->
+            
+            <!-- <div class="row clearfix"> -->
+            	
+                <!--News Block-->
+                <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    	<ul class="post-meta">
+                        	<li><a href="blog-single.html">Cleaning Tips</a></li>
+                        </ul>
+                        <div class="image">
+                        	<div class="post-date"><span>15</span>A<br>u<br>g</div>
+                        	<a href="blog-single.html"><img src="images/news-1.jpg" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                        	<ul class="admin">
+                                <li><span class="icon flaticon-account"></span>By Admin</li>
+                            </ul>
+                            <h3><a href="blog-single.html">Tips for keeping Easter Egg Dye off Your Upholstery</a></h3>
+                            <a href="blog-single.html" class="theme-btn read-btn">Read More</a>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--News Block-->
+                <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    	<ul class="post-meta">
+                        	<li><a href="blog-single.html">Maintenance</a></li>
+                            <li><a href="blog-single.html">Tips</a></li>
+                        </ul>
+                        <div class="image">
+                        	<div class="post-date"><span>21</span>m<br>a<br>y</div>
+                        	<a href="blog-single.html"><img src="images/news-2.jpg" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                        	<ul class="admin">
+                                <li><span class="icon flaticon-account"></span>By Admin</li>
+                            </ul>
+                            <h3><a href="blog-single.html">12 Tips You Should Know as You Tackle Spring Cleaning</a></h3>
+                            <a href="blog-single.html" class="theme-btn read-btn">Read More</a>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!--News Block-->
+                <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                	<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    	<ul class="post-meta">
+                        	<li><a href="blog-single.html">Residential Clean</a></li>
+                        </ul>
+                        <div class="image">
+                        	<div class="post-date"><span>09</span>a<br>p<br>r</div>
+                        	<a href="blog-single.html"><img src="images/news-3.jpg" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                        	<ul class="admin">
+                                <li><span class="icon flaticon-account"></span>By Admin</li>
+                            </ul>
+                            <h3><a href="blog-single.html">How to Choose a Quality Air Duct Cleaning Service</a></h3>
+                            <a href="blog-single.html" class="theme-btn read-btn">Read More</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section> -->
+    <!--End Blog Section-->
 
     <!--Info Section-->
     <section class="info-section">
